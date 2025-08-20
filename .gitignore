@@ -1,0 +1,97 @@
+# =========================
+# OS cruft
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Java / Groovy artifacts
+# =========================
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# Packaging (usually built artifacts you don't commit)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Build outputs
+# =========================
+# Eclipse / Groovy-Eclipse
+bin/
+.settings/
+.project
+.classpath
+.buildpath
+.factorypath
+.externalToolBuilders/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Generic build dirs
+build/
+target/
+reports/
+test-results/
+
+# =========================
+# Gradle (uncomment if using)
+# =========================
+.gradle/
+# Keep Gradle Wrapper (recommended to commit)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# =========================
+# Maven (uncomment if using)
+# =========================
+# pom.xml.tag
+# pom.xml.releaseBackup
+# pom.xml.versionsBackup
+# pom.xml.next
+# release.properties
+# dependency-reduced-pom.xml
+
+# =========================
+# Coverage & test artifacts
+# =========================
+coverage/
+*.ec
+*.exec
+jacoco.exec
+*.em
+*.lcov
+*.cobertura.xml
+
+# =========================
+# Temporary / editor files
+# =========================
+*.swp
+*.swo
+*~
+.#*
+nohup.out
+
+# =========================
+# Env & local config
+# =========================
+.env
+.env.*
